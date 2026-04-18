@@ -1,7 +1,7 @@
 # A51 function properties assignment
 from __future__ import annotations
 
-
+# get all keys from dictionary
 def get_domain(mapping: dict) -> set:
     """Return the domain X (all inputs of the function)."""
     # === TODO ===
