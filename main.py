@@ -36,7 +36,7 @@ def is_injective(mapping: dict) -> bool:
     return len(mapping.values()) == len(set(mapping.values()))
     # === END TODO ===
 
-
+# compare outputs to check function properties
 def is_surjective(mapping: dict, target: set) -> bool:
     """Return True if f is onto (range == target)."""
     # === TODO ===
